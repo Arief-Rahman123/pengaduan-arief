@@ -20,7 +20,7 @@
                                 <div class="invalid-feedback">{{ $message }}</div>
                             @enderror
                         </div>
-                    {{-- </div>
+                    </div>
                     <div class="row mb-4">
                         <div class="col-4">
                             <label>Jenis Kelamin :</label>
@@ -35,10 +35,10 @@
                       </div>
                     </div>
                 </div>
-                <div class="form-group">
+                {{-- <div class="form-group">
                     <label for="exampleFormControlTextarea1">Alamat</label>
                     <textarea class="form-control" name="alamat" id="exampleFormControlTextarea1" rows="3"></textarea>
-                  </div> --}}
+                  </div>  --}}
                     <div class="row mb-4">
                         <div class="col-4">
                             <label>Nama :</label>

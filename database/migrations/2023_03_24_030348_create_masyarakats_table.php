@@ -14,8 +14,8 @@ return new class extends Migration
         Schema::create('masyarakats', function (Blueprint $table) {
             $table->char('nik', 16)->primary();
             $table->string('nama');
-            // $table->enum('jenisKelamin', ['laki-laki', 'perempuan']);
-            // $table->string('alamat');
+            $table->enum('jenisKelamin', ['laki-laki', 'perempuan'])->nullable();
+            $table->string('alamat')->nullable();
             $table->string('username')->unique();
             $table->string('password');
             $table->string('telp', 13)->unique();
