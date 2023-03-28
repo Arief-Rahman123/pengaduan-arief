@@ -34,11 +34,11 @@
                         <label class="form-check-label" for="inlineRadio2">Perempuan</label>
                       </div>
                     </div>
-                </div>
-                {{-- <div class="form-group">
+                <div class="form-group">
                     <label for="exampleFormControlTextarea1">Alamat</label>
                     <textarea class="form-control" name="alamat" id="exampleFormControlTextarea1" rows="3"></textarea>
-                  </div>  --}}
+                  </div> 
+                </div>
                     <div class="row mb-4">
                         <div class="col-4">
                             <label>Nama :</label>

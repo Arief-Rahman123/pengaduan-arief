@@ -9,6 +9,7 @@ use App\Models\Tanggapan;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\File;
+use PDF;
 
 class PengaduanController extends Controller
 {
@@ -55,5 +56,16 @@ class PengaduanController extends Controller
         }else{
             return view('masyarakat.undone-detail', compact('pengaduan'));
         }
+    }
+    public function exportPDF() {
+
+        $pengaduan = Pengaduan::all();
+        // dd($pengaduan);
+        $pdf = PDF::loadview('petugas.pengaduan.pdf', [
+            'pengaduan' => $pengaduan
+        ]);
+        // dd($pdf);
+        return $pdf->stream('Laporan-Pengaduan-Masyarakat.pdf');
+
     }
 }

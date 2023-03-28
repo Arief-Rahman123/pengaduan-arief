@@ -29,6 +29,7 @@ Route::post('/login/authenticate',[MasyarakatController::class, 'authenticate'])
 Route::get('/register',[MasyarakatController::class, 'register'])->name('register');
 Route::post('/store/register', [MasyarakatController::class, 'storeMasyarakat'])->name('store.register');
 Route::get('/logout', [MasyarakatController::class, 'logoutMasyarakat'])->name('logout');
+Route::get('report/export-pdf', [PengaduanController::class, 'exportPDF'])->name('report.export-pdf');
 
 // Masyarakat
 
@@ -38,6 +39,7 @@ Route::middleware(['auth'])->group(function () {
         Route::get('/pengaduan', [PengaduanController::class, 'pengaduan'])->name('/pengaduan');
         Route::post('/pengaduans', [PengaduanController::class, 'storePengaduan'])->name('/store.pengaduan');
         Route::get('/detail/{id}', [PengaduanController::class, 'detail'])->name('/detail');
+      
     });
 });
 

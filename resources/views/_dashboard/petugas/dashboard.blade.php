@@ -44,7 +44,7 @@
             </div>
             <div class="row">
                 <div class="card">
-                    <div class="card-header text-center font-bold">Data Pengaduan Masyarakat Desa WatesJaya</div>
+                    <div class="card-header text-center font-bold">Data Pengaduan Masyarakat Desa Bitung sari</div>
                     <div class="card-body">
                         <table class="table table-striped" id="table1">
                             <thead>

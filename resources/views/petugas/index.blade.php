@@ -1,5 +1,5 @@
 @extends('_partial.content')
-@section('title', 'Petugas Desa WatesJaya')
+@section('title', 'Petugas Desa Bitung Sari')
 @section('title_content', 'Tambahkan Petugas')
 @section('content')
     <div class="row">

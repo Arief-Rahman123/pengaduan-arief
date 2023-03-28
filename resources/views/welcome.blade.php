@@ -45,8 +45,8 @@
 
     <div class="d-flex align-items-center justify-content-between">
       <a href="index.html" class="logo d-flex align-items-center">
-        <img src="assetsniceadmin/img/logo.png" alt="">
-        <span class="d-none d-lg-block">NiceAdmin</span>
+        <img src="https://www.pikpng.com/pngl/m/441-4415375_logo-provinsi-jawa-barat-png-logo-provinsi-jawa.png" alt="">
+        <span class="d-none d-lg-block">Pengaduan Desa Bitung Sari</span>
       </a>
       <i class="bi bi-list toggle-sidebar-btn"></i>
     </div><!-- End Logo -->
@@ -131,8 +131,8 @@
       <nav>
         <ol class="breadcrumb">
           <li class="breadcrumb-item"><a href="{{route('login')}}">Login</a></li>
-          <li class="breadcrumb-item">Components</li>
-          <li class="breadcrumb-item active">Accordion</li>
+          <li class="breadcrumb-item"><a href="{{route('register')}}">REgis</a></li>
+          {{-- <li class="breadcrumb-item active">Accordion</li> --}}
         </ol>
       </nav>
     </div><!-- End Page Title -->

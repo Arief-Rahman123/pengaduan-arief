@@ -37,8 +37,8 @@ class MasyarakatController extends Controller
         $validator = $request->validate([
             'nik' => 'required|unique:masyarakats,nik|numeric',
             'nama' => 'required',
-            // 'jenisKelamin' => 'required',
-            // 'almat' => 'required',
+            'jenisKelamin' => 'required',
+            'alamat' => 'required',
             'telp' => 'required|unique:petugas,telp|unique:masyarakats,telp|numeric',
             'username' => 'required|unique:masyarakats,username|unique:petugas,username',
             'password' => 'required',

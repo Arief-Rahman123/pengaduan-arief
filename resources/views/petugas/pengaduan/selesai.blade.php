@@ -3,8 +3,10 @@
 @section('content')
 <div class="row">
     <div class="card">
-        <div class="card-header text-center font-bold">Data Pengaduan Masyarakat Desa WatesJaya</div>
+        <div class="card-header text-center font-bold">Data Pengaduan Masyarakat Desa Bitung Sari</div>
         <div class="card-body">
+           <a href="{{ route('report.export-pdf') }}" class="btn btn-primary btn-sm m-2" target="_blank">Export
+            PDF</a>
             <table class="table table-striped" id="table1">
                 <thead>
                     <tr>

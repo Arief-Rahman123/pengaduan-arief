@@ -96,7 +96,7 @@
                         <div class="card-body px-4 py-4-5">
                             <div class="row">
                                 <div class="col-md-8 col-lg-12 col-xl-12 col-xxl-7">
-                                    <h6 class="text-muted text-center font-bold">Seluruh Aduan Masyarakat WatesJaya</h6>
+                                    <h6 class="text-muted text-center font-bold">Seluruh Aduan Masyarakat Desa Bitung Sari</h6>
                                     <h6 class="font-semibold text-center mb-0">{{ number_format($aduan) }}</h6>
                                 </div>
                             </div>
