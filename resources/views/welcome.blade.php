@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Components / Accordion - NiceAdmin Bootstrap Template</title>
+  <title>Pengaduan Masyarakat</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -46,7 +46,7 @@
     <div class="d-flex align-items-center justify-content-between">
       <a href="index.html" class="logo d-flex align-items-center">
         <img src="https://www.pikpng.com/pngl/m/441-4415375_logo-provinsi-jawa-barat-png-logo-provinsi-jawa.png" alt="">
-        <span class="d-none d-lg-block">Pengaduan Desa Bitung Sari</span>
+        <span class="d-none d-lg-block">PEBITSI</span>
       </a>
       <i class="bi bi-list toggle-sidebar-btn"></i>
     </div><!-- End Logo -->
@@ -63,6 +63,8 @@
 
 
         <li class="nav-item dropdown pe-3">
+          <a href="login" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Login</a>
+          <a href="regsiter" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Register</a>
 
           {{-- <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
             <img src="assetsniceadmin/img/profile-img.jpg" alt="Profile" class="rounded-circle">
@@ -155,7 +157,11 @@
                   </h2>
                   <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                      <strong>This is the first item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                      <div class="col-md-8 col-lg-12 col-xl-12 col-xxl-7">
+                        <h6 class="text-muted text-center font-bold">Buat Laporan</h6>
+                        <h6 class="font-semibold text-center mb-0">Laporkan keluhan atau aspirasi anda dengan
+                            jelas dan lengkap</h6>
+                    </div>
                     </div>
                   </div>
                 </div>
@@ -167,7 +173,11 @@
                   </h2>
                   <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                      <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                      <div class="col-md-8 col-lg-12 col-xl-12 col-xxl-7">
+                        <h6 class="text-muted text-center font-bold">Proses Verifikasi</h6>
+                        <h6 class="font-semibold text-center mb-0">Laporan Anda akan diverifikasi & diteruskan
+                            kepada petugas</h6>
+                    </div>
                     </div>
                   </div>
                 </div>
@@ -179,7 +189,27 @@
                   </h2>
                   <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
                     <div class="accordion-body">
-                      <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                      <div class="col-md-8 col-lg-12 col-xl-12 col-xxl-7">
+                        <h6 class="text-muted text-center font-bold">Tindak Lanjut</h6>
+                        <h6 class="font-semibold text-center mb-0">Pihak desa akan menindaklanjuti dan membalas
+                            laporan Anda</h6>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Accordion Item #4
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <div class="col-md-8 col-lg-12 col-xl-12 col-xxl-7">
+                        <h6 class="text-muted text-center xfont-bold">Selesai</h6>
+                        <h6 class="font-semibold text-center mb-0">Laporan Anda akan terus ditindaklanjuti
+                            hingga terselesaikan</h6>
+                    </div>
                     </div>
                   </div>
                 </div>

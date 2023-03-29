@@ -63,7 +63,7 @@ class PengaduanController extends Controller
         // dd($pengaduan);
         $pdf = PDF::loadview('petugas.pengaduan.pdf', [
             'pengaduan' => $pengaduan
-        ]);
+        ])->setPaper('a4','landscape');
         // dd($pdf);
         return $pdf->stream('Laporan-Pengaduan-Masyarakat.pdf');
 

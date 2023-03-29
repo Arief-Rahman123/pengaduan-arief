@@ -11,16 +11,19 @@
     <title>Laporan Pengaduan</title>
 </head>
 <body>
+    <img style="width: 80px" src="https://i.pinimg.com/originals/af/b8/0c/afb80ca0df6e4bfbb3826a3735138e44.jpg" alt="">
     <div class="text-center">
         <h5>Laporan Pengaduan Masyarakat Desa Bitung Sari</h5>
-        <img style="width: 80px" src="https://i.pinimg.com/originals/af/b8/0c/afb80ca0df6e4bfbb3826a3735138e44.jpg" alt="">
     </div>
     <div class="container">
         <table class="table">
             <thead>
                 <tr>
                     <th>No</th>
+                    <th>NIK</th>
+                    <th>NAMA</th>
                     <th>Tanggal</th>
+                    {{-- <th>Tanggal Tanggapan</th> --}}
                     <th>Isi Laporan</th>
                     <th>Status</th>
                 </tr>
@@ -29,9 +32,12 @@
                 @foreach ($pengaduan as $k => $v)
                     <tr>
                         <td>{{ $k += 1 }}</td>
+                        <td>{{ $v->nik}}</td>
+                        <td>{{ $v->masyarakat->nama}}</td>
                         <td>{{ $v->tanggal_pengaduan}}</td>
+                        {{-- <td>{{ $v->tanggal_tanggapan}}</td> --}}
                         <td>{{ $v->isi_pengaduan}}</td>
-                        <td>{{ $v->status }}</td>
+                        <td>{{ $v->status }}</td> 
                     </tr>
                 @endforeach
             </tbody>
