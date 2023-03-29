@@ -25,6 +25,8 @@ class PetugasController extends Controller
         if (Petugas::create([
             'nama_petugas' => $request->nama_petugas,
             'telp' => $request->telp,
+            'jenisKelamin' => $request->jenisKelamin,
+            'alamat' => $request->alamat,
             'username' => $request->username,
             'password' => Hash::make($request->password),
             'level' => 'petugas'

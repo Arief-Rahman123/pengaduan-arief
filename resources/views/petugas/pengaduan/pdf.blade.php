@@ -23,8 +23,8 @@
                     <th>NIK</th>
                     <th>NAMA</th>
                     <th>Tanggal</th>
-                    {{-- <th>Tanggal Tanggapan</th> --}}
                     <th>Isi Laporan</th>
+                    <th>Tanggal Tanggapan</th>
                     <th>Status</th>
                 </tr>
             </thead>
@@ -35,8 +35,8 @@
                         <td>{{ $v->nik}}</td>
                         <td>{{ $v->masyarakat->nama}}</td>
                         <td>{{ $v->tanggal_pengaduan}}</td>
-                        {{-- <td>{{ $v->tanggal_tanggapan}}</td> --}}
                         <td>{{ $v->isi_pengaduan}}</td>
+                        <td>{{ $v->tanggal_tanggapan}}</td>
                         <td>{{ $v->status }}</td> 
                     </tr>
                 @endforeach

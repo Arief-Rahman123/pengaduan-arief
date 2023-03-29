@@ -15,6 +15,8 @@ return new class extends Migration
             $table->id('id_petugas');
             $table->string('nama_petugas');
             $table->string('telp', 13)->unique();
+            $table->enum('jenisKelamin', ['laki-laki', 'perempuan'])->nullable();
+            $table->string('alamat')->nullable();
             $table->string('username')->unique();
             $table->string('password');
             $table->enum('level', ['petugas', 'admin']);

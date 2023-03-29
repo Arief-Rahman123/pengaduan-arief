@@ -64,7 +64,7 @@
 
         <li class="nav-item dropdown pe-3">
           <a href="login" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Login</a>
-          <a href="regsiter" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Register</a>
+          <a href="register" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Register</a>
 
           {{-- <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
             <img src="assetsniceadmin/img/profile-img.jpg" alt="Profile" class="rounded-circle">

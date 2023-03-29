@@ -33,6 +33,19 @@
                                         </div>
                                     </div>
                                 </div>
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="jenisKelamin"  id="inlineRadio1" value="laki-laki">
+                                    <label class="form-check-label" for="inlineRadio1">laki-laki</label>
+                                  </div>
+                                  <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="jenisKelamin" id="inlineRadio2" value="perempuan">
+                                    <label class="form-check-label" for="inlineRadio2">Perempuan</label>
+                                  </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="exampleFormControlTextarea1">Alamat</label>
+                                    <textarea class="form-control" name="alamat" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                  </div> 
                                 <div class="row">
                                     <label>Username:</label>
                                 </div>
@@ -78,6 +91,7 @@
                             <th>Nama Petugas</th>
                             <th>Username</th>
                             <th>No Telp</th>
+                            <th>Alamat</th>
                         </tr>
                     </thead>
                     @foreach ($petugas as $item)
@@ -86,7 +100,8 @@
                                 <td>{{ $loop->iteration }}</td>
                                 <td>{{ $item->nama_petugas }}</td>
                                 <td>{{ $item->username }}</td>
-                                <td>{{ $item->telp }}</td>
+                                <td>{{ $item->telp }}</td>\
+                                <td>{{ $item->alamat }}</td>
                             </tr>
                     </tbody>
                     @endforeach

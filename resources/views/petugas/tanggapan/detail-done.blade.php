@@ -120,10 +120,10 @@
                                                                 <textarea name="isi_tanggapan" class="form-control mb-2" cols="30" rows="5"
                                                                     readonly>{{ $tanggapan->tanggapan }}</textarea>
                                                             </div>
-                                                            <div class="col-12 d-flex justify-content-end">
+                                                            {{-- <div class="col-12 d-flex justify-content-end">
                                                                 <a href="#" class="btn btn-success me-1 mb-1">
                                                                     Print</a>
-                                                            </div>
+                                                            </div> --}}
                                                         </div>
                                                     </div>
                                                 </form>
